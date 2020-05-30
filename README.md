@@ -7,8 +7,15 @@
 - Many times people do not show up for a medical appointment. Previous studies have shown that about 25% of the people did not show up.
 - No-show is a loss for doctors since they lose their payments. On the other hand, patients who wanted an appointment as soon as possible were unable to get one.
 - Thus, there are two losses: the financial loss for the doctor and the loss of an appointment for the person in need.
-- The paper could help clinics and hospitals in understanding what attributes are associated with the individuals who did not show up.
+- The notebook could help clinics and hospitals in understanding what attributes are associated with the individuals who did not show up.
 
+## Project Description
+
+- Performed predictive analysis on a large data-set of “Medical Appointment No Shows” to determine whether patient will show
+up for appointment.
+- Used Decision Tree, Random Forest Classifier, Light GBM, XGBoost models to determine best approach using Confusion Matrix.
+- Analyzed data and plotted graphs using Interactive Visualizations (IPyWidgets, Plotly).
+- Applied feature engineering which led to an increase in accuracy of the model from 68% to 76%.
 ### Data description
 - <strong>PatientId</strong>: Identification of a patient
 - <strong>AppointmentID</strong>: Identification of each appointment
