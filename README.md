@@ -13,9 +13,10 @@
 
 - Performed predictive analysis on a large data-set of “Medical Appointment No Shows” to determine whether patient will show
 up for appointment.
-- Used Decision Tree, Random Forest Classifier, Light GBM, XGBoost models to determine best approach using Confusion Matrix.
+- Used <strong> Decision Tree, Random Forest Classifier, Light GBM, XGBoost models </strong> to determine best approach using Confusion Matrix.
 - Analyzed data and plotted graphs using Interactive Visualizations (IPyWidgets, Plotly).
-- Applied feature engineering which led to an increase in accuracy of the model from 68% to 76%.
+-Utilized <strong>Python widgets</strong> to consolidate all the graphs in a <strong>drop-down menu style</strong>.
+- Applied feature engineering which led to an increase in accuracy of the model from <strong>68%</strong> to <strong>76%</strong>.
 ### Data description
 - <strong>PatientId</strong>: Identification of a patient
 - <strong>AppointmentID</strong>: Identification of each appointment
