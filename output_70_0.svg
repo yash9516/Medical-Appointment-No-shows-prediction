@@ -1,0 +1,110 @@
+<svg height="314pt" viewBox="0.00 0.00 621.00 314.00" width="621pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" id="graph0" transform="scale(1 1) rotate(0) translate(4 310)">
+<title>Tree</title>
+<polygon fill="white" points="-4,4 -4,-310 617,-310 617,4 -4,4" stroke="transparent"/>
+<!-- 0 -->
+<g class="node" id="node1">
+<title>0</title>
+<polygon fill="#eca16b" points="379.5,-306 233.5,-306 233.5,-223 379.5,-223 379.5,-306" stroke="black"/>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="306.5" y="-290.8">SmsReceived &lt;= 0.5</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="306.5" y="-275.8">gini = 0.322</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="306.5" y="-260.8">samples = 110522</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="306.5" y="-245.8">value = [88208, 22314]</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="306.5" y="-230.8">class = 0</text>
+</g>
+<!-- 1 -->
+<g class="node" id="node2">
+<title>1</title>
+<polygon fill="#ea9a61" points="300.5,-187 148.5,-187 148.5,-104 300.5,-104 300.5,-187" stroke="black"/>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="224.5" y="-171.8">AppointmentDay &lt;= 8.5</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="224.5" y="-156.8">gini = 0.278</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="224.5" y="-141.8">samples = 75040</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="224.5" y="-126.8">value = [62510, 12530]</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="224.5" y="-111.8">class = 0</text>
+</g>
+<!-- 0&#45;&gt;1 -->
+<g class="edge" id="edge1">
+<title>0-&gt;1</title>
+<path d="M278.05,-222.91C271.82,-214.01 265.16,-204.51 258.72,-195.33" fill="none" stroke="black"/>
+<polygon fill="black" points="261.5,-193.2 252.9,-187.02 255.77,-197.22 261.5,-193.2" stroke="black"/>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="248.57" y="-207.94">True</text>
+</g>
+<!-- 4 -->
+<g class="node" id="node5">
+<title>4</title>
+<polygon fill="#efb184" points="458,-187 319,-187 319,-104 458,-104 458,-187" stroke="black"/>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="388.5" y="-171.8">Age &lt;= 44.5</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="388.5" y="-156.8">gini = 0.399</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="388.5" y="-141.8">samples = 35482</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="388.5" y="-126.8">value = [25698, 9784]</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="388.5" y="-111.8">class = 0</text>
+</g>
+<!-- 0&#45;&gt;4 -->
+<g class="edge" id="edge4">
+<title>0-&gt;4</title>
+<path d="M334.95,-222.91C341.18,-214.01 347.84,-204.51 354.28,-195.33" fill="none" stroke="black"/>
+<polygon fill="black" points="357.23,-197.22 360.1,-187.02 351.5,-193.2 357.23,-197.22" stroke="black"/>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="364.43" y="-207.94">False</text>
+</g>
+<!-- 2 -->
+<g class="node" id="node3">
+<title>2</title>
+<polygon fill="#e99457" points="139,-68 0,-68 0,0 139,0 139,-68" stroke="black"/>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="69.5" y="-52.8">gini = 0.23</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="69.5" y="-37.8">samples = 27162</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="69.5" y="-22.8">value = [23564, 3598]</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="69.5" y="-7.8">class = 0</text>
+</g>
+<!-- 1&#45;&gt;2 -->
+<g class="edge" id="edge2">
+<title>1-&gt;2</title>
+<path d="M166.78,-103.73C153.1,-94.06 138.53,-83.77 124.95,-74.17" fill="none" stroke="black"/>
+<polygon fill="black" points="126.82,-71.21 116.64,-68.3 122.78,-76.93 126.82,-71.21" stroke="black"/>
+</g>
+<!-- 3 -->
+<g class="node" id="node4">
+<title>3</title>
+<polygon fill="#eb9e66" points="296,-68 157,-68 157,0 296,0 296,-68" stroke="black"/>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="226.5" y="-52.8">gini = 0.304</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="226.5" y="-37.8">samples = 47878</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="226.5" y="-22.8">value = [38946, 8932]</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="226.5" y="-7.8">class = 0</text>
+</g>
+<!-- 1&#45;&gt;3 -->
+<g class="edge" id="edge3">
+<title>1-&gt;3</title>
+<path d="M225.24,-103.73C225.39,-95.52 225.55,-86.86 225.7,-78.56" fill="none" stroke="black"/>
+<polygon fill="black" points="229.21,-78.36 225.89,-68.3 222.21,-78.23 229.21,-78.36" stroke="black"/>
+</g>
+<!-- 5 -->
+<g class="node" id="node6">
+<title>5</title>
+<polygon fill="#f1bc95" points="456,-68 317,-68 317,0 456,0 456,-68" stroke="black"/>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="386.5" y="-52.8">gini = 0.434</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="386.5" y="-37.8">samples = 21135</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="386.5" y="-22.8">value = [14408, 6727]</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="386.5" y="-7.8">class = 0</text>
+</g>
+<!-- 4&#45;&gt;5 -->
+<g class="edge" id="edge5">
+<title>4-&gt;5</title>
+<path d="M387.76,-103.73C387.61,-95.52 387.45,-86.86 387.3,-78.56" fill="none" stroke="black"/>
+<polygon fill="black" points="390.79,-78.23 387.11,-68.3 383.79,-78.36 390.79,-78.23" stroke="black"/>
+</g>
+<!-- 6 -->
+<g class="node" id="node7">
+<title>6</title>
+<polygon fill="#eca36f" points="613,-68 474,-68 474,0 613,0 613,-68" stroke="black"/>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="543.5" y="-52.8">gini = 0.335</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="543.5" y="-37.8">samples = 14347</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="543.5" y="-22.8">value = [11290, 3057]</text>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="543.5" y="-7.8">class = 0</text>
+</g>
+<!-- 4&#45;&gt;6 -->
+<g class="edge" id="edge6">
+<title>4-&gt;6</title>
+<path d="M446.22,-103.73C459.9,-94.06 474.47,-83.77 488.05,-74.17" fill="none" stroke="black"/>
+<polygon fill="black" points="490.22,-76.93 496.36,-68.3 486.18,-71.21 490.22,-76.93" stroke="black"/>
+</g>
+</g>
+</svg>
